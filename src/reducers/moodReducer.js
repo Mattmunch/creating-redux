@@ -1,4 +1,9 @@
-import { DRINK_COFFEE, EAT_SNACK, TAKE_NAP, STUDY } from '../actions/moodActions';
+import {
+  DRINK_COFFEE,
+  EAT_SNACK,
+  TAKE_NAP,
+  STUDY
+} from '../actions/moodActions';
 
 const reducer = (state, action) => {
   switch(action.type) {
